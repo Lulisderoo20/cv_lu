@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  margin-top: 30px;
+}
+
+body {
+  font-family: "Russo One", sans-serif;
+  display: block;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.picturelu {
+  width: 50%;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 90px;
+  color: white;
+  padding-bottom: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+  padding-bottom: 40px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+a.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+a.nav-link:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  justify-content: center;
+}
+.nav-bar {
+  flex-direction: row;
+  display: flex; animation: fadeIn 50s;}
+.nav-bar li {
+  padding: 10px;
+}
+.item {
+  position: relative;
+  margin-right: 50px;
+  margin-left: 1030px;
+}
+.fade-in-text {animation: fadeIn 40s;}
+.datos {flex-direction: column;animation: fadeIn 60s}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.mail {
+color: #fff;
+}
